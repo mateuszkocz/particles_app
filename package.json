@@ -1,0 +1,14 @@
+{
+  "name": "particles_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mateusz Kocz",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "dependencies": {
+    "node-sass-chokidar": "^1.3.3"
+  }
+}
